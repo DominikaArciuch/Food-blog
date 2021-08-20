@@ -1,0 +1,42 @@
+.lobster_font {
+    font-family: Lobster, display !important;
+}
+
+.montserrat_font {
+    font-family: Montserrat, display !important;
+}
+
+.header {
+    margin-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 3vw;
+    text-shadow: 0 0 1vw rgba(0, 0, 0, 0.7);
+
+}
+.empty {
+    background-color: #e5e5e5;
+    color: #e5e5e5
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
