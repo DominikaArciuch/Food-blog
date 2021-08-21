@@ -23,24 +23,6 @@
     color: #e5e5e5
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
 .card-title {
     font-family: Lobster, display !important;
 }
