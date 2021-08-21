@@ -17,26 +17,44 @@
     text-shadow: 0 0 1vw rgba(0, 0, 0, 0.7);
 
 }
+
 .empty {
     background-color: #e5e5e5;
     color: #e5e5e5
 }
 
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 .top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
+.card-title {
+    font-family: Lobster, display !important;
+}
+
+.card-img-top {
+    height: 270px;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    font-size: 11px;
+}
+
+.normal-text {
+    color: black;
+    text-align: left
+}

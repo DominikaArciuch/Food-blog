@@ -11,10 +11,10 @@
     <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
-<body class="montserrat_font">
+<body class="montserrat_font ">
 
 <div class="container-fluid" style="background-color: #ffde54;">
-    <nav class="navbar navbar-expand-sm py-4 navbar-light" style="background-color: #ffde54;">
+    <nav class="navbar navbar-expand-sm py-3 navbar-light" style="background-color: #ffde54;">
         <div class="container">
             <a class="navbar-brand lobster_font ps-md-0" href="index.html" style="font-size: 24px;">What to cook?</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -22,7 +22,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav align-text-right ms-auto">
+                <ul class="navbar-nav align-text-right ms-auto pe-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"><b>HOME</b></a>
                     </li>
@@ -38,28 +38,66 @@
     </nav>
 </div>
 
+<div class="container-fluid empty"> empty</div>
+
+<img class="img-fluid" src="../static/images/front_page_logo.jpg" alt="">
+
+<div class="container normal-text ms-md-5 ms-sm-2 ps-4 py-4">
+    <div class="row">
+        <div class="col-8">
+            <b>Do you want to make something special but have no idea what to cook?</b>
+            <br>
+            <b>Don't worry, we'll help you with that!</b>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-md-8 pt-4 pt-md-3">
+            Try our new feature which offers you delicious dishes based on the content of your fridge!
+        </div>
+        <div class="col-md-3 pt-2">
+            <a class="btn btn-md justify-content-md-end" href="#" role="button"
+               style="background: #94509e; color: white; border: none"><b>TRY IT NOW!</b></a>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid empty"> empty</div>
 
-
-<div class="jumbotron jumbotron-fluid py-5"
-     style="background: linear-gradient(0deg, rgba(242,242,242,0.15), rgba(242,242,242,0.15)), url('6.jpg') center center fixed;">
-    <div class="container" style="text-align: center; color: #f5f5f5">
-        <h1 class=" display-1 lobster_font ">What to cook?</h1>
-    </div>
-</div>
-
-
-<div class="ms-md-5 ms-sm-2 ps-4 py-4">
-    <b>Do you want to make something special but have no idea what to cook?</b>
+<div class="container normal-text mb-4">
+    <h4><b>Our lately posts</b></h4>
     <br>
-    <b>Don't worry, we'll help you with that!</b>
-    <div class="py-md-3">
-        <p>Try our new feature which offers you delicious dishes based on the content of your fridge!</p>
-    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="../static/images/meal_3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title lobster_font">Steak with asparagus</h4>
 
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="../static/images/meal_1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Spaghetti frutti di mare</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="../static/images/meal_2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Cucumber salad</h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<footer class="footer py-2 text-center">Created by Dominika Arciuch <img src="../static/icons/heart.png" width="23px"></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
