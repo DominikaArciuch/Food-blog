@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>What to cook?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="montserrat_font ">
+<div class="container-fluid" style="background-color: #ffde54;">
+    <nav class="navbar navbar-expand-sm py-3 navbar-light" style="background-color: #ffde54;">
+        <div class="container">
+            <a class="navbar-brand lobster_font ps-md-0" href="index.html" style="font-size: 24px;">What to cook?</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav align-text-right ms-auto pe-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>FOOD SEARCH</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>LOG IN</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container-fluid empty"> empty</div>
+
+
+{% block content %}{% endblock %}
+
+
+<footer class="footer py-2 text-center">Created by Dominika Arciuch <img src="../static/icons/heart.png" width="23px" alt="">
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+</html>
