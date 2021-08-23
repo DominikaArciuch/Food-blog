@@ -32,8 +32,10 @@
 }
 
 .footer {
+    text-align: center;
     background-color: #e5e5e5;
     font-size: 11px;
+
 }
 
 .normal-text {
