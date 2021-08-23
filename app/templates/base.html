@@ -22,13 +22,16 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav align-text-right ms-auto pe-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><b>HOME</b></a>
+                        <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}"><b>HOME</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><b>FOOD SEARCH</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><b>LOG IN</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('registration') }}"><b>SIGN IN</b></a>
                     </li>
                 </ul>
             </div>
