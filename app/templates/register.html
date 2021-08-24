@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% set active_page = "register" %}
+{% set icon = './static/icons/unicorn_hello.png' %}
+{% block title %}Register{% endblock %}
+{% block content %}
+    <div class="container normal-text my-4">
+        <div class="row">
+            <div class="col-lg-8 col-md-7">
+                <h3>Create your account</h3>
+                <hr>
+                {{ wtf.quick_form(form) }}
+                <hr>
+                <p>Do you already have an account?</p>
+                <p><a href="#">Log in instead</a></p>
+            </div>
+            <div class="col-md-5 col-lg-4 d-sm-none d-none d-md-block">
+                <img src="../static/images/register.jpg" alt="" class="img-fluid ">
+            </div>
+        </div>
+    </div>
+{% endblock %}
